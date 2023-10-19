@@ -1,11 +1,11 @@
 a {
     display: block;
     width: 35px;
+    height: 1px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     border-radius: 10px;
     margin: 120px 225px;
-    padding: 12px 30px;
     background-color: #c2d6e0;
     color: rgb(62, 160, 152);
     text-decoration: none;
