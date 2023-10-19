@@ -1,7 +1,7 @@
 a {
     display: block;
-    width: 35px;
-    height: 1px;
+    width: 75px;
+    height: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     border-radius: 10px;
@@ -11,6 +11,91 @@ a {
     text-decoration: none;
 }
 a:hover {
+    background-color: rgb(46, 110, 105);
+    border: 2px solid rgb(46, 110, 105);
+    color:rgb(56, 207, 207)
+}
+b {
+    display: block;
+    width: 75px;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 120px 225px;
+    background-color: #c2d6e0;
+    color: rgb(62, 160, 152);
+    text-decoration: none;
+}
+b:hover {
+    background-color: rgb(46, 110, 105);
+    border: 2px solid rgb(46, 110, 105);
+    color:rgb(56, 207, 207)
+}
+c {
+    display: block;
+    width: 75px;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 120px 225px;
+    background-color: #c2d6e0;
+    color: rgb(62, 160, 152);
+    text-decoration: none;
+}
+c:hover {
+    background-color: rgb(46, 110, 105);
+    border: 2px solid rgb(46, 110, 105);
+    color:rgb(56, 207, 207)
+}
+d {
+    display: block;
+    width: 75px;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 120px 225px;
+    background-color: #c2d6e0;
+    color: rgb(62, 160, 152);
+    text-decoration: none;
+}
+d:hover {
+    background-color: rgb(46, 110, 105);
+    border: 2px solid rgb(46, 110, 105);
+    color:rgb(56, 207, 207)
+}
+e {
+    display: block;
+    width: 75px;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 120px 225px;
+    background-color: #c2d6e0;
+    color: rgb(62, 160, 152);
+    text-decoration: none;
+}
+e:hover {
+    background-color: rgb(46, 110, 105);
+    border: 2px solid rgb(46, 110, 105);
+    color:rgb(56, 207, 207)
+}
+f {
+    display: block;
+    width: 75px;
+    height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 120px 225px;
+    background-color: #c2d6e0;
+    color: rgb(62, 160, 152);
+    text-decoration: none;
+}
+f:hover {
     background-color: rgb(46, 110, 105);
     border: 2px solid rgb(46, 110, 105);
     color:rgb(56, 207, 207)
