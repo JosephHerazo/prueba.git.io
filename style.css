@@ -17,6 +17,12 @@ body{
     padding: 20px;
     display: block;
 }
+.menu li b{
+    text-decoration: none;
+    color: #c2272f;
+    padding: 40px;
+    display: block;
+}
 .menu li{
     display: inline-block;
     text-align:center;
