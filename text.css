@@ -1,0 +1,14 @@
+.img{
+     image-orientation: right;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font: 100;
+    color: gray;
+    display: block;
+    background-color: black;
+}
+.left{
+    text-align: left;
+}
