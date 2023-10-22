@@ -1,14 +1,13 @@
 .img{
      image-orientation: right;
 }
-.text{
+.Container1{
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
     font: 100;
     color: gray;
     display: block;
-    background-color: black;
+    background-color: goldenrod;
 }
-.left{
-    text-align: left;
-}
+
+

@@ -1,12 +1,12 @@
 body{
     font-family: arial, helvetica;
-    background: #c2d6e0;
+    background: #ffffff;
 }
 
 .menu{
     list-style: none;
     padding: 4;
-    background: #c2d6e0;
+    background: #000000;
     width: 90%;
     max-width: 1650px;
     margin: auto;
@@ -14,7 +14,7 @@ body{
 .menu{
     list-style: none;
     padding: 4;
-    background: #0e6a74;
+    background: #000000;
     width: 100%;
     max-width: 1880px;
     margin: auto;
@@ -44,7 +44,7 @@ body{
 }
 
 .menu li a:hover{
-    background: #2c1b1b;
+    background: #e4af00;
 }
 .menu li b:hover{
     background: #c2d6e0;
