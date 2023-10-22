@@ -1,6 +1,6 @@
 body{
     font-family: arial, helvetica;
-    background: #0f606b;
+    background: #c2d6e0;
 }
 
 .menu{
@@ -8,19 +8,33 @@ body{
     padding: 4;
     background: #c2d6e0;
     width: 90%;
-    max-width: 1250px;
+    max-width: 1650px;
+    margin: auto;
+}
+.menu{
+    list-style: none;
+    padding: 4;
+    background: #0e6a74;
+    width: 100%;
+    max-width: 1880px;
     margin: auto;
 }
 .menu li a{
-    text-decoration: none;
-    color: #0f606b;
+    text-decoration: bold-font;
+    color: #ffffff;
     padding: 20px;
     display: block;
 }
 .menu li b{
     text-decoration: none;
     color: #c2272f;
-    font-size: 45;
+    font-size: 90;
+    padding: 20px;
+    display: block;
+}
+.menu li c{
+    text-decoration: none;
+    color: #ffffff;
     padding: 20px;
     display: block;
 }
@@ -30,7 +44,7 @@ body{
 }
 
 .menu li a:hover{
-    background: #02584d;
+    background: #2c1b1b;
 }
 .menu li b:hover{
     background: #c2d6e0;
