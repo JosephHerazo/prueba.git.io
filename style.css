@@ -5,9 +5,9 @@ body{
 
 .menu{
     list-style: none;
-    padding: 0;
+    padding: 4;
     background: #c2d6e0;
-    width: 100%;
+    width: 90%;
     max-width: 1250px;
     margin: auto;
 }
@@ -20,7 +20,7 @@ body{
 .menu li b{
     text-decoration: none;
     color: #c2272f;
-    padding: 40px;
+    padding: 20px;
     display: block;
 }
 .menu li{
@@ -29,8 +29,8 @@ body{
 }
 
 .menu li a:hover{
-    background: #c2d6e0
+    background: #02584d;
 }
 .menu li b:hover{
-    background: #c2d6e0
+    background: #c2d6e0;
 }
