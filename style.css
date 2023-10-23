@@ -14,14 +14,14 @@ body{
 .menu{
     list-style: none;
     padding: 4;
-    background: #000000;
+    background: #c2d6e0;
     width: 100%;
     max-width: 1880px;
     margin: auto;
 }
 .menu li a{
     text-decoration: bold-font;
-    color: #ffffff;
+    color: #0f606b;
     padding: 20px;
     display: block;
 }
@@ -44,7 +44,7 @@ body{
 }
 
 .menu li a:hover{
-    background: #e4af00;
+    background: #003b2d;
 }
 .menu li b:hover{
     background: #c2d6e0;
