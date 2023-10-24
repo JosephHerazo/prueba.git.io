@@ -95,3 +95,17 @@ body{
     background: rgb(47, 88, 78);
     color: white;
 }
+.menu li b{
+    text-decoration: double;
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    background-color: rgb(21, 100, 96);
+    height: 41px;
+    font-size: Larger;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: start;
+}
