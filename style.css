@@ -83,15 +83,16 @@ body{
 .lol li a{
     display: block;
     color: #ffffff;
-    text-decoration: darkgrey;
-    padding: 15px;
+    text-decoration: none;
+    padding: 18px;
+    font-size: medium;
 }
 .lol li{
     display: inline-block;
     text-align: center all;
 }
 .lol li a:hover{
-    background: gold;
+    background: rgb(47, 88, 78);
     color: white;
 }
 .Content{
