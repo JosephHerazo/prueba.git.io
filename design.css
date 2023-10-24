@@ -109,3 +109,7 @@ body{
     display: inline-block;
     text-align: start;
 }
+.menu li b:hover {
+    background-color: #228b7d;
+    color: #ffffff;
+}
