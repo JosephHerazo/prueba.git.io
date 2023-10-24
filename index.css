@@ -45,6 +45,9 @@
 
 #itemCarrousel-1{
     background-color: rgb(226, 50, 50);
+    position: relative;
+    display: inline-block;
+    text-align: left;
 }
 
 #itemCarrousel-2{
