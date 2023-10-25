@@ -9,9 +9,9 @@ body{
     padding: 4;
     background: #C2D6E0;
     width: 100%;
-    max-width: 1880px;
+    max-width: 1810px;
     margin: auto;
-    height: 60px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -42,15 +42,11 @@ body{
     height: 41px;
     font-size: 3em;
 }
-.menu li{
-    display: inline-block;
-    text-align: start;
-}
 .class{
     padding: 1;
     margin: auto;
     background-color: #0e6a74;
-    width: 100%;
+    width: 1810px;
     height: 15px;
     list-style: none;
 }
@@ -72,7 +68,7 @@ body{
     padding: 1;
     margin: auto;
     background-color: #C2D6E0;
-    width: 100%;
+    width: 1810px;
     height: 75px;
     list-style: none;
     display: flex;
