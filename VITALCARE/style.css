@@ -1,24 +1,25 @@
 body{
     font-family: arial, helvetica;
-    background: rgb(255, 255, 255);
+    background: linear-gradient(rgb(255, 255, 255), #C2D6E0, #0e6a74);
+    min-height: 100vh;
 }
 
 .menu{
     list-style: none;
     padding: 4;
-    background: #0a2418;
+    background: #C2D6E0;
     width: 100%;
     max-width: 1880px;
     margin: auto;
-    height: 40px;
+    height: 60px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:center;
 }
 .menu li a{
     text-decoration: none;
     color: gray;
-    padding: 10px;
+    padding: 15px;
     display: block;
     font-size: large;
 }
@@ -34,26 +35,21 @@ body{
 }
 .menu li b{
     text-decoration: double;
-    color: #ffffff;
-    padding: 5px;
+    color: #801515;
+    padding: 15px;
     display: block;
-    background-color: rgb(21, 100, 96);
+    background-color: #C2D6E0;
     height: 41px;
-    font-size: Larger;
+    font-size: 3em;
 }
-
 .menu li{
     display: inline-block;
     text-align: start;
 }
-.menu li b:hover {
-    background-color: #228b7d;
-    color: #ffffff;
-}
 .class{
     padding: 1;
     margin: auto;
-    background-color:rgb(36, 94, 91);
+    background-color: #0e6a74;
     width: 100%;
     height: 15px;
     list-style: none;
@@ -75,9 +71,9 @@ body{
 .lol{
     padding: 1;
     margin: auto;
-    background-color: rgb(21, 100, 96);
+    background-color: #C2D6E0;
     width: 100%;
-    height: 55px;
+    height: 75px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -85,9 +81,8 @@ body{
 }
 .lol li a{
     display: block;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 18px;
+    color: #0e6a74;
+    padding: 11px;
     font-size: medium;
 }
 .lol li{
@@ -99,15 +94,23 @@ body{
     color: white;
 }
 .Content{
-    display: block;
-    background-color: rgb(255, 255, 255);
-    color: rgb(26, 124, 128);
+    color: #0e6a74;
     text-align: center;
+    background: hsl(0, 0%, 100%);
+    height: 200px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 .Content h2{
-    color: #0a2418;
+    color: #5cc091;
     font-weight: 100;
+    font-size: 2em;
 }
+.Content h1{
+    font-size: 3em;
+}
+
 .Paragraph{
     display: flex;
     background: rgb(255, 255, 255);
@@ -144,7 +147,8 @@ body{
 }
 .block{
     display: block;
-    background-color: #0a2418;
+    background: linear-gradient(#0e6a74,#074f57);
+    min-height: 50vh;
 }
 .block{
     padding: 20px;
@@ -166,11 +170,20 @@ body{
 .text{
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 35%;
-    left: 25%;
+    top: 25%;
+    left: 35%;
     transform: translate(-50%, -50%);
-    font-size: xx-large;
-    width: 450px;
+    font-size: 3em;
+    width: 850px;
     height: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text h1{
+    color: white;
+    font-size: 4em;
+}
+.content{
+    position: relative;
+    background: linear-gradient(rgb(255, 255, 255), #C2D6E0, #0e6a74);
+    padding: 100px;
 }
