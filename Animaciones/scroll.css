@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(#26f6fd, rgb(50, 148, 205), rgb(3, 3, 3));
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    padding: 30px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2em;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px; 
+}
+header ul li a:hover,
+header ul li a.active{
+    background-color: white;
+    color:rgb(50, 148, 205);
+}
