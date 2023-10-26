@@ -1,0 +1,193 @@
+body{
+    font-family: arial, helvetica;
+    background: linear-gradient(rgb(255, 255, 255), #C2D6E0, #0e6a74);
+    min-height: 100vh;
+}
+
+.menu{
+    list-style: none;
+    padding: 4;
+    background: #C2D6E0;
+    width: 100%;
+    max-width: 1810px;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.menu li a{
+    text-decoration: none;
+    color: gray;
+    padding: 15px;
+    display: block;
+    font-size: large;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: start;
+}
+
+.menu li a:hover{
+    background: #228b7d;
+    color: #ffffff;
+}
+.menu li b{
+    text-decoration: double;
+    color: #801515;
+    padding: 15px;
+    display: block;
+    background-color: #C2D6E0;
+    height: 41px;
+    font-size: 3em;
+}
+.class{
+    padding: 1;
+    margin: auto;
+    background-color: #0e6a74;
+    width: 1810px;
+    height: 15px;
+    list-style: none;
+}
+.class li a{
+    display: block;
+    color: #ffffff;
+    text-decoration: darkgrey;
+    padding: 10px;
+}
+.class li{
+    display: inline-block;
+    text-align: center all;
+}
+.class li a :hover{
+    background: gold;
+    color: white;
+}
+.lol{
+    padding: 1;
+    margin: auto;
+    background-color: #C2D6E0;
+    width: 1810px;
+    height: 75px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lol li a{
+    display: block;
+    color: #0e6a74;
+    padding: 11px;
+    font-size: medium;
+}
+.lol li{
+    display: inline-block;
+    text-align: center all;
+}
+.lol li a:hover{
+    background: rgb(47, 88, 78);
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(rgb(255, 255, 255), #C2D6E0, #0e6a74);
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+    overflow: hidden;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+    height: 500px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.manual-btn{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    overflow: hidden;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: rgb(255, 255, 255);
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+.navigation-auto div{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div::not(:last-child){
+    margin-right: 40px; 
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #0e6a74;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #0e6a74;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #0e6a74;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #0e6a74;
+}
+

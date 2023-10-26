@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalCare</title>
+    <link rel="stylesheet" href="carrusel.css">
+</head>
+<body>
+    <ul class= 'menu'>   
+        <li><b href="">VitalCare</b></li>           
+    </ul> 
+    <ul class= 'lol'>    
+        <li><a href="Vitalcare.html">Start</a></li>
+        <li><a href="Requierements.html">Request Donor</a></li>
+        <li><a href="hola.html">Requirements</a></li>
+        <li><a href="Contact.html">Contact</a></li>  
+        <li><a href="aboutus.html">About us</a></li>
+        <li><a href="">App</a></li>
+        <li><a href="news.html">News</a></li>           
+        <li><a href="Donate_us.html">Donate Here!</a></li>
+        <li><a href="Blood_donor.html">Blood Donor</a></li>           
+        <li><a href="Requierements.html">Join as a Donor</a></li>  
+        
+
+    </ul> 
+    <ul class= 'class'>    
+        <li><a href=""></a></li> 
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>           
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>  
+    
+  <div class = "slider">
+    <div class = "slides">
+        <input type = "radio" name = "radio-btn" id = "radio1">
+        <input type = "radio" name = "radio-btn" id = "radio2">
+        <input type = "radio" name = "radio-btn" id = "radio3">
+        <input type = "radio" name = "radio-btn" id = "radio4">
+    
+        <div class = "slide first">
+            <img src = "https://e0.pxfuel.com/wallpapers/886/576/desktop-wallpaper-san-francisco-california-cityscape-laptop-full.jpg" alt = "">
+        </div>
+        <div class = "slide">
+            <img src = "https://img.freepik.com/foto-gratis/pintura-lago-montana-montana-al-fondo_188544-9126.jpg" alt = "">
+        </div>
+        <div class = "slide">
+            <img src = "https://i.redd.it/c3uhsgo1vx541.jpg" alt = "">
+        </div>
+        <div class = "slide">
+            <img src = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN6bX7PLVRuY9RSvLl2roObBtUEbmNPrjQEgSe-HsLIfcszD48NrVGpSmDI0lpdbwWOoN3D9qFf9ifkREmxyhUY0rwcU38ICVUzBCIykzGKvJOkG0wwq456EIXoM_v_n1Q7uVCefmfwsli4n6YknyoPiJZBhOluBmCx_927mT3ruFngx0vTRTXk4ybgg/w640-h360-rw/beeautiful-sunset-illustration-1212023.png" alt = "">
+        </div>
+
+        <div class = "navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+
+    </div>
+
+    <div class = "navigation-manual">
+        <label for = "radio1" class = "manual-btn"></label>
+        <label for = "radio2" class = "manual-btn"></label>
+        <label for = "radio3" class = "manual-btn"></label>
+        <label for = "radio4" class = "manual-btn"></label>
+    </div>
+
+  </div>
+    
+  <script type = "text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked= true;
+        counter++;
+        if(couunter > 4){
+            counter = 1
+        }
+    },5000);
+  </script>
+
+</body>
+</html>
