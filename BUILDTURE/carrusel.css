@@ -41,6 +41,9 @@ body{
     align-items: center;
     overflow: hidden;
 }
+.navigation-manual{
+    display: none;
+}
 .manual-btn{
     border: 2px solid rgb(255, 255, 255);
     padding: 5px;
@@ -59,13 +62,13 @@ body{
     margin-left: 0;
 }
 #radio2:checked ~ .first{
-    margin-left: -20%;
+    margin-left: 20%;
 }
 #radio3:checked ~ .first{
-    margin-left: -40%;
+    margin-left: 40%;
 }
 #radio4:checked ~ .first{
-    margin-left: -60%;
+    margin-left: 60%;
 }
 
 .navigation-auto{
